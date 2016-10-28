@@ -1,0 +1,30 @@
+{
+  "name": "churchdonationapp",
+  "version": "1.0.0",
+  "description": "Allows members of a church donate to a cause posted up by the church and the church group monitor and account for donors.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temiadesina/churchdonationapp.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "flutterwave"
+  ],
+  "author": "Temi Adesina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/temiadesina/churchdonationapp/issues"
+  },
+  "homepage": "https://github.com/temiadesina/churchdonationapp#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "multer": "^1.2.0"
+  }
+}
