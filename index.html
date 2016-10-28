@@ -14,7 +14,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6">
-                <form role="form" action="http://127.0.0.1:8081/card-payment/" method="POST" id="payment-form">
+                <form role="form" action="/make-payment/" method="POST" id="payment-form">
                 <div class="col-sm-12">
                     <div class="form-group">
                         <label>Card Number</label>
@@ -52,6 +52,12 @@
                                 <input type="number" name="amount" class="form-control" placeholder="1000" required>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label for="">BVN</label>
+                        <input type="text" name="bvnpin" class="form-control" placeholder="Enter BVN Number" required>
                     </div>
                 </div>
                 <div class="col-sm-12">
