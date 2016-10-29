@@ -185,7 +185,7 @@ app.get('/validate.html', function (req, res) {
 
 });
 
-var app_port = process.env.port || 8081;
+var app_port = process.env.PORT || 8081;
 
 app.listen(app_port, function () {
 	console.log("Churchdonationapp listening at %d" , app_port);
