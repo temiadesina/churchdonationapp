@@ -100,7 +100,7 @@ var flutterwaveFunctions = {
 	};
 
 app.use(express.static('public'));
-app.get('/index.html', function (req, res) {
+app.get('/', function (req, res) {
 	console.log("Got a GET request for the homepage");
 	res.sendFile(__dirname + "/" + "index.html");
 });
