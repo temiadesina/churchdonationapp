@@ -192,9 +192,12 @@ app.listen(8081, function () {
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
+<<<<<<< HEAD
 //Instantiate the class
 var Flutterwave = require('flutterwave');
 var flutterwave = new Flutterwave("","");
+=======
+>>>>>>> parent of a649c7a... Added flutterwave function for tokenizing charging and validation still work in progress
 
 // Create application/x-www-form-urlencoded parser
 var urlencodedParser = bodyParser.urlencoded({ extended: false})
@@ -204,7 +207,7 @@ app.get('/index.html', function(req, res) {
     console.log("Got a GET request for the homepage");
     res.sendFile( __dirname + "/" + "index.html");
 });
-/** 
+
 app.post('/card-payment/', urlencodedParser, function(req, res){
 
   response = {
@@ -220,6 +223,7 @@ app.post('/card-payment/', urlencodedParser, function(req, res){
     console.log(response);
     res.end(JSON.stringify(response));
 });
+<<<<<<< HEAD
 */
 
 
@@ -298,6 +302,8 @@ app.post('/make-payment/', function(req, res, next){
 });
 
 
+=======
+>>>>>>> parent of a649c7a... Added flutterwave function for tokenizing charging and validation still work in progress
 
 app.listen(8081, function () {
 
